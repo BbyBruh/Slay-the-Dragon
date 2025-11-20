@@ -9,6 +9,15 @@ h2[b-8k3awwhp1y] {
     margin-bottom: 10px;
 }
 
+.footer[b-8k3awwhp1y] {
+    font-family: "Garamond", serif;
+    font-size: smaller;
+}
+
+.authorLink[b-8k3awwhp1y] {
+    font-family: "Garamond", serif;
+    text-decoration: none;
+}
 /* HP UI */
 .hp-settings[b-8k3awwhp1y] {
     margin-bottom: 10px;
@@ -95,12 +104,12 @@ h2[b-8k3awwhp1y] {
 }
 
 .reset-btn[b-8k3awwhp1y] {
-    background: #3a6ea5;
+    background: #4e0707;
     color: white;
     margin-top: 20px;
 }
 
 .remove-btn[b-8k3awwhp1y] {
-    background: #d9534f;
-    color: white;
+    background: #381727;
+    color: #ff0000;
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UzVMMnhQ/EjhyEZF1OubU7+vxWM/5o3B30s14umNXHM=",
+  "Hash": "yMRuZ3NaXEo8M4n8q30fFj4hMNWsHZra7SIT5WkrTLA=",
   "Source": "StD",
   "BasePath": "/",
   "Mode": "Root",
@@ -2409,6 +2409,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/ash/Documents/StD/StD/obj/Release/net8.0/webcil/publish/System.Text.RegularExpressions.wasm"
+    },
+    {
+      "Identity": "/home/ash/Documents/StD/StD/wwwroot/404.html",
+      "SourceId": "StD",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ash/Documents/StD/StD/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "404.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/404.html"
     },
     {
       "Identity": "/home/ash/Documents/StD/StD/wwwroot/css/app.css",

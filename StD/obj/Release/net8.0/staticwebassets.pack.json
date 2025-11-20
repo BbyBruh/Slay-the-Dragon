@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/StD.styles.css"
     },
     {
+      "Id": "/home/ash/Documents/StD/StD/wwwroot/404.html",
+      "PackagePath": "staticwebassets/404.html"
+    },
+    {
       "Id": "/home/ash/Documents/StD/StD/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },

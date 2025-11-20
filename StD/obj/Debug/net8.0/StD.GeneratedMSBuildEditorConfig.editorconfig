@@ -26,16 +26,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/ash/Documents/StD/StD/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/ash/Documents/StD/StD/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/ash/Documents/StD/StD/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/ash/Documents/StD/StD/_Imports.razor]
@@ -49,6 +41,10 @@ build_metadata.AdditionalFiles.CssScope = b-9vs1vmk0mp
 [/home/ash/Documents/StD/StD/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-p96ii3q5qh
+
+[/home/ash/Documents/StD/StD/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-dvxn3nx46u
 
 [/home/ash/Documents/StD/StD/Pages/Slay.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2xheS5yYXpvcg==

@@ -1030,3 +1030,4 @@
 /home/ash/Documents/StD/StD/obj/Release/net8.0/refint/StD.dll
 /home/ash/Documents/StD/StD/obj/Release/net8.0/StD.pdb
 /home/ash/Documents/StD/StD/obj/Release/net8.0/ref/StD.dll
+/home/ash/Documents/StD/StD/obj/Release/net8.0/StD.sourcelink.json

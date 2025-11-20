@@ -1030,3 +1030,5 @@
 /home/ash/Documents/StD/StD/obj/Debug/net8.0/StD.pdb
 /home/ash/Documents/StD/StD/obj/Debug/net8.0/ref/StD.dll
 /home/ash/Documents/StD/StD/obj/Debug/net8.0/scopedcss/Pages/Slay.razor.rz.scp.css
+/home/ash/Documents/StD/StD/obj/Debug/net8.0/StD.sourcelink.json
+/home/ash/Documents/StD/StD/obj/Debug/net8.0/scopedcss/Pages/Counter.razor.rz.scp.css

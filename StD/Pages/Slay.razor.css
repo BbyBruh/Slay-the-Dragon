@@ -9,6 +9,15 @@ h2 {
     margin-bottom: 10px;
 }
 
+.footer {
+    font-family: "Garamond", serif;
+    font-size: smaller;
+}
+
+.authorLink {
+    font-family: "Garamond", serif;
+    text-decoration: none;
+}
 /* HP UI */
 .hp-settings {
     margin-bottom: 10px;
@@ -95,12 +104,12 @@ h2 {
 }
 
 .reset-btn {
-    background: #3a6ea5;
+    background: #4e0707;
     color: white;
     margin-top: 20px;
 }
 
 .remove-btn {
-    background: #d9534f;
-    color: white;
+    background: #381727;
+    color: #ff0000;
 }
