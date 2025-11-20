@@ -1,0 +1,106 @@
+h1 {
+    font-family: "Garamond", serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* HP UI */
+.hp-settings {
+    margin-bottom: 10px;
+}
+
+.hp-input {
+    width: 80px;
+}
+
+.hp-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hp-text {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.winning-message{
+    flex-basis: 100%;
+    width: 100%;
+}
+
+/* SEGMENTED HP BAR */
+.hp-steps {
+    display: flex;
+    gap: 2px;
+    width: 300px;
+}
+
+.hp-step {
+    flex: 1;
+    height: 18px;
+    border-radius: 2px;
+    border: 1px solid #222;
+}
+
+.hp-step.filled {
+    background: #a22; /* red */
+}
+
+.hp-step.empty {
+    background: #eee; /* grey */
+}
+
+/* Task Table */
+.task-table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+    padding: 6px;
+}
+
+.task-name {
+    width: 100%;
+}
+
+.damage-input {
+    width: 60px;
+}
+
+.chk-col {
+    text-align: center;
+}
+
+/* Buttons */
+.add-btn,
+.reset-btn,
+.remove-btn {
+    cursor: pointer;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.add-btn {
+    background: #4caf50;
+    color: #fff;
+}
+
+.reset-btn {
+    background: #3a6ea5;
+    color: white;
+    margin-top: 20px;
+}
+
+.remove-btn {
+    background: #d9534f;
+    color: white;
+}

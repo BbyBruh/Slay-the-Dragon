@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/home/ash/Documents/StD/StD/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/home/ash/Documents/StD/StD/obj/Debug/net8.0/compressed/fibgvmeons.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/home/ash/Documents/StD/StD/obj/Debug/net8.0/scopedcss/bundle/StD.styles.css",
+      "PackagePath": "staticwebassets/StD.styles.css"
+    },
+    {
+      "Id": "/home/ash/Documents/StD/StD/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/ash/Documents/StD/StD/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/ash/Documents/StD/StD/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/ash/Documents/StD/StD/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/ash/Documents/StD/StD/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/home/ash/Documents/StD/StD/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/ash/Documents/StD/StD/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.StD.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.StD.props",
+      "PackagePath": "build\\StD.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.StD.props",
+      "PackagePath": "buildMultiTargeting\\StD.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.StD.props",
+      "PackagePath": "buildTransitive\\StD.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

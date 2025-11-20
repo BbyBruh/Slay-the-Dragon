@@ -1,0 +1,129 @@
+@page "/slay"
+@using StD.Models
+
+<h1>Slay the Dragon</h1>
+
+<div class="hp-settings">
+    <label>Max HP:</label>
+    <input type="number" @bind="MaxHP" min="10" step="10" class="hp-input" />
+</div>
+
+<div class="hp-container">
+    <div class="hp-text">Dragon HP: @CurrentHP / @MaxHP</div>
+
+    <!-- SEGMENTED HP BAR -->
+    <div class="hp-steps">
+        @foreach (var i in Enumerable.Range(1, StepsCount))
+        {
+            bool filled = i <= FilledSteps;
+            <div class="hp-step @(filled ? "filled" : "empty")"></div>
+        }
+    </div>
+   <p>*each step is 10*</p> 
+    @if (CurrentHP == 0)
+    {
+        <div class="winning-message">You slayed the dragon!!</div>
+    }
+</div>
+
+<hr />
+
+<h2>Tasks</h2>
+
+<button class="add-btn" @onclick="AddTask">Add Task</button>
+
+<table class="task-table">
+    <thead>
+        <tr>
+            <th>Task</th>
+            <th>Damage</th>
+            <th>Done?</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var task in Tasks)
+        {
+            <tr>
+                <td>
+                    <input class="task-name" @bind="task.Name" />
+                </td>
+
+                <td>
+                    <input type="number" min="1" class="damage-input" @bind="task.Damage" />
+                </td>
+
+                <td class="chk-col">
+                    <input type="checkbox"
+                           checked="@task.Completed"
+                           @onchange="e => ToggleTask(task, e.Value)" />
+                </td>
+
+                <td>
+                    <button class="remove-btn" @onclick="(() => RemoveTask(task))">X</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+<button class="reset-btn" @onclick="ResetHP">Reset Dragon HP</button>
+
+<div class="footer">
+    <p class="credit">
+        Design inspired by <a class="authorLink" href="https://msha.ke/meifae?utm_source=ig&utm_medium=social&utm_content=link_in_bio"> Mei o Lore Fairy</a>
+        <a class="authorLink" href="https://www.canva.com/design/DAFmYSD8jmY/8Ma_pZeAQic7r0QAtt2dJg/view?utm_content=DAFmYSD8jmY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview">Canva template</a>
+    </p>
+</div>
+
+@code {
+    private int MaxHP = 310;
+    private int CurrentHP = 310;
+
+    // Number of visual steps in the HP bar
+    private int StepsCount => 31;
+    private int FilledSteps =>
+        (int)Math.Ceiling((double)CurrentHP / MaxHP * StepsCount);
+
+    private List<TaskItem> Tasks = new()
+    {
+        new TaskItem { Name="Edit your tasks", 
+            Damage=10 }
+    };
+
+    private void AddTask()
+    {
+        Tasks.Add(new TaskItem { Name = "New Task", Damage = 10 });
+    }
+
+    private void RemoveTask(TaskItem task)
+    {
+        if (task.Completed)
+            CurrentHP = Math.Min(MaxHP, CurrentHP + task.Damage);
+
+        Tasks.Remove(task);
+    }
+
+    private void ToggleTask(TaskItem task, object? newValue)
+    {
+        bool isChecked = (bool)(newValue ?? false);
+
+        if (task.Completed)
+            CurrentHP = Math.Min(MaxHP, CurrentHP + task.Damage);
+
+        task.Completed = isChecked;
+
+        if (isChecked)
+            CurrentHP = Math.Max(0, CurrentHP - task.Damage);
+    }
+
+    private void ResetHP()
+    {
+        CurrentHP = MaxHP;
+        foreach (var t in Tasks)
+            t.Completed = false;
+    }
+}

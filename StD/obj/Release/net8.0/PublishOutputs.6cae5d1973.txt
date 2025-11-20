@@ -1,0 +1,1 @@
+/home/ash/Documents/StD/StD/bin/Release/net8.0/publish/web.config

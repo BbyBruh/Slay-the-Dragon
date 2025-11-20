@@ -1,0 +1,106 @@
+h1[b-8k3awwhp1y] {
+    font-family: "Garamond", serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2[b-8k3awwhp1y] {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* HP UI */
+.hp-settings[b-8k3awwhp1y] {
+    margin-bottom: 10px;
+}
+
+.hp-input[b-8k3awwhp1y] {
+    width: 80px;
+}
+
+.hp-container[b-8k3awwhp1y] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hp-text[b-8k3awwhp1y] {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.winning-message[b-8k3awwhp1y]{
+    flex-basis: 100%;
+    width: 100%;
+}
+
+/* SEGMENTED HP BAR */
+.hp-steps[b-8k3awwhp1y] {
+    display: flex;
+    gap: 2px;
+    width: 300px;
+}
+
+.hp-step[b-8k3awwhp1y] {
+    flex: 1;
+    height: 18px;
+    border-radius: 2px;
+    border: 1px solid #222;
+}
+
+.hp-step.filled[b-8k3awwhp1y] {
+    background: #a22; /* red */
+}
+
+.hp-step.empty[b-8k3awwhp1y] {
+    background: #eee; /* grey */
+}
+
+/* Task Table */
+.task-table[b-8k3awwhp1y] {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+}
+
+.task-table th[b-8k3awwhp1y],
+.task-table td[b-8k3awwhp1y] {
+    padding: 6px;
+}
+
+.task-name[b-8k3awwhp1y] {
+    width: 100%;
+}
+
+.damage-input[b-8k3awwhp1y] {
+    width: 60px;
+}
+
+.chk-col[b-8k3awwhp1y] {
+    text-align: center;
+}
+
+/* Buttons */
+.add-btn[b-8k3awwhp1y],
+.reset-btn[b-8k3awwhp1y],
+.remove-btn[b-8k3awwhp1y] {
+    cursor: pointer;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.add-btn[b-8k3awwhp1y] {
+    background: #4caf50;
+    color: #fff;
+}
+
+.reset-btn[b-8k3awwhp1y] {
+    background: #3a6ea5;
+    color: white;
+    margin-top: 20px;
+}
+
+.remove-btn[b-8k3awwhp1y] {
+    background: #d9534f;
+    color: white;
+}
